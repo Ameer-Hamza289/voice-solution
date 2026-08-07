@@ -1,0 +1,29 @@
+# Web server
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+python-dotenv>=1.0
+
+# LLM / agent orchestration
+langchain>=0.3
+langgraph>=0.2.60
+langchain-google-genai>=2.0
+google-genai>=1.0
+
+# RAG / vector store
+langchain-chroma>=0.2
+chromadb>=0.5
+
+# Speech-to-text (local fallback engine)
+faster-whisper>=1.1
+
+# Text-to-speech
+edge-tts>=6.1
+
+# Audio processing
+numpy>=1.26
+scipy>=1.13
+soundfile>=0.12
+noisereduce>=3.0
+webrtcvad-wheels>=2.0
+langchain-text-splitters>=0.3
