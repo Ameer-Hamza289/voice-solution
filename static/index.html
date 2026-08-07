@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Everline Home Services — Voice Agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="brand">
+      <div class="brand-mark">E</div>
+      <div>
+        <h1>Everline Home Services</h1>
+        <p>24/7 AI Dispatch Line &middot; HVAC &middot; Plumbing &middot; Electrical</p>
+      </div>
+    </header>
+
+    <section class="call-card">
+      <div class="orb-wrap">
+        <div id="orb" class="orb idle"><div class="orb-core"></div></div>
+        <p id="status-label">Ready to take your call</p>
+      </div>
+
+      <div class="controls">
+        <button id="call-btn" class="btn btn-call">
+          <span class="btn-icon">&#9742;</span><span id="call-btn-label">Start Call</span>
+        </button>
+      </div>
+
+      <div id="transcript" class="transcript" aria-live="polite">
+        <div class="hint">Press <strong>Start Call</strong> and speak naturally —
+          describe your issue like you would to a real dispatcher.</div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Emergencies are triaged instantly &middot; Diagnostic visit $89 &middot; After-hours dispatch $149</p>
+    </footer>
+  </main>
+  <script src="/static/app.js"></script>
+</body>
+</html>
