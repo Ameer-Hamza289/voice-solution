@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+data/chroma/
+data/*.db
+data/recordings/
+.models/
+config.bat
+node_modules
