@@ -11,6 +11,7 @@ WebSocket protocol (/ws/call):
 """
 from __future__ import annotations
 
+import utils.session
 import asyncio
 import logging
 import uuid
