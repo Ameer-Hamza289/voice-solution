@@ -10,7 +10,6 @@ WebSocket protocol (/ws/call):
                      binary frames  = MP3 audio of the agent's reply
 """
 from __future__ import annotations
-
 import asyncio
 import logging
 import uuid
